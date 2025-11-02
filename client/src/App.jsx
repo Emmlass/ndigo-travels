@@ -22,6 +22,9 @@ function App() {
         </svg>
           </button>
         </div>
+       <div className="flex border gap-2 border-gray-300 rounded-full py-2 px-4 ">
+        
+       </div>
       </header>
       
       
