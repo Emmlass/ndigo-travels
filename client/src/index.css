@@ -12,7 +12,7 @@
 
 }
 
-input[type="email"],input[type="password"]{
+input[type="email"],input[type="password"],input[type="text"]{
     @apply border border-gray-300 rounded-2xl
     w-full  py-2 px-3 mt-2 mb-4;
 }
@@ -22,5 +22,5 @@ button{
 }
 
 button.primary{
-    @apply bg-ndt-primary text-white ;
+    @apply bg-ndt-primary text-white p-2 w-full rounded-2xl ;
 }
