@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+  /* Define your custom color here */
+  --color-ndt-primary: #4487ef;
+  --color-ndt-secondary: #004070;
+  
+  /* You can also define shades */
+  --color-ocean-500: #0ea5e9;
+  --color-ocean-600: #0284c7;
+
+
+}
