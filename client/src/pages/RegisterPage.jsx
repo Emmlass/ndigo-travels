@@ -6,8 +6,13 @@ export default function RegisterPage() {
     const [name,setName]=useState('');
     const [email,setEmail]=useState('');
     const [password,setPassword]=useState('');
-    function registerUser(){
-        axios.get("http://localhost:4000/test")
+    function registerUser(ev){
+        ev.preventDefault();
+        axios.post("/register",{
+            name,
+            email,
+            password
+        })
     }
 
     return (
@@ -34,7 +39,7 @@ export default function RegisterPage() {
                 </div>
                 </form>
             </div>
-        </div>
+        </div> 
     );
 }
 
