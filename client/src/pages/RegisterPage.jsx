@@ -27,10 +27,10 @@ export default function RegisterPage() {
                         placeholder="input your password" 
                         value={password} 
                         onChange={(ev)=>setPassword(ev.target.value)} />
-                    <button className="primary">Login</button>
+                    <button className="primary">Register</button>
                     <div className="text-center py-2 text-gray-500">
                     <span>Already a member?</span>
-                    <Link to={'/login'} className="text-center underline ">Register</Link>                
+                    <Link to={'/login'} className="text-center underline ">Login</Link>                
                 </div>
                 </form>
             </div>

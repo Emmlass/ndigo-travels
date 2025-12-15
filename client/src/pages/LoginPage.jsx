@@ -4,7 +4,7 @@ export default function LoginPage() {
         <div className="mt-4 grow flex items-center justify-around ">
             <div className="mb-66">                
                 <h1 className="text-4xl text-center mb-4">Login</h1>
-                <form action="" className="max-w-md mx-auto border">
+                <form action="" className="max-w-md mx-auto">
                 <input type="email" placeholder={"input your email"} />
                 <input type="password" placeholder={"input your password"} />
                 <button className="primary">Login</button>
